@@ -1,2 +1,2 @@
 # jogo da velha responsivo
- Jogo da velha responsivo criado como exercício
+ Jogo da velha totalmente responsivo para diversas telas, criado como exercício.
