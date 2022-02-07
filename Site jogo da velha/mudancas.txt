@@ -1,0 +1,8 @@
+Mudanças para adaptar na tela que deram certo:
+-div#container{
+height: calc(55.92%); //talvez
+width: calc(31.45%);
+}
+div.sqr{
+box-sizing: border-box; // parece funcionar mt bem, mas qnd clica e imagem fica estranha
+}

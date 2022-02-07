@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Medieval tic tac toe</title>
+</head>
+<body>
+    <h1>Welcome to medieval tic tac toe!</h1>
+    <div id="inputs">
+        <h2 id="p1">Player 1:</h2>
+        <input type="text" id="player1" placeholder="Sword">
+        <h2 id="p2">Player 2:</h2>
+        <input type="text" id="player2" placeholder="Shield">
+        <input type="submit" id="enter" value="Enter" onclick="scoreBoard()">
+    </div>
+    <div id="container">
+        <div id="0" class="sqr">
+            <div class="o"></div>
+        </div>
+        <div id="1" class="sqr">
+            <div class="x"></div>
+        </div>
+        <div id="2" class="sqr"></div>
+        <div id="3" class="sqr"></div>
+        <div id="4" class="sqr"></div>
+        <div id="5" class="sqr"></div>
+        <div id="6" class="sqr"></div>
+        <div id="7" class="sqr"></div>
+        <div id="8" class="sqr"></div>
+    </div>
+    <div id="reset">
+        <h2 id="rst">Reset</h2>
+    </div>
+    <script src="./game.js"></script>
+    <script src="./interface.js"></script>
+</body>
+</html>
