@@ -86,13 +86,13 @@ function scoreBoard(){ // Updates and shows the scoreboard
             score1.style = "font-size: 25px; margin-left: 2px;"; 
             score2.style = "font-size: 25px; margin-left: 110px;";
     }if(innerWidth < 430 && innerWidth > 380){
-            score1.style = "font-size: 20px; margin-left: 2px;"; 
-            score2.style = "font-size: 20px; margin-left: 40px;";
+            score1.style = "font-size: 30px; margin-left: 2px;"; 
+            score2.style = "font-size: 30px; margin-left: 40px;";
     }if(innerWidth < 380 && innerWidth > 330){
-            score1.style = "font-size: 15px; margin-left: 2px;"; 
-            score2.style = "font-size: 15px; margin-left: 30px;";
+            score1.style = "font-size: 25px; margin-left: 2px;"; 
+            score2.style = "font-size: 25px; margin-left: 30px;";
     }if(innerWidth < 330){
-            score1.style = "font-size: 15px; margin-left: 2px;";
-            score2.style = "font-size: 15px; margin-left: 20px;";
+            score1.style = "font-size: 22px; margin-left: 2px;";
+            score2.style = "font-size: 22px; margin-left: 20px;";
     }
 }

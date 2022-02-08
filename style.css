@@ -189,42 +189,50 @@ div#reset:hover{
 }
 @media screen and (max-width: 430px){
     h1{
-        font-size: 35px;
+        width: 60%;
+        font-size: 45px;
+    }
+    div#inputs{
+        width: 40%;
     }
     h2#p1{
-        font-size: 15px;
+        font-size: 30px;
     }
     h2#p2{
-        font-size: 15px;
+        font-size: 30px;
     }
     input#player1{
-        font-size: 10px;
-        width: 18%;
+        font-size: 12px;
+        width: 25%;
     }
     input#player2{
-        font-size: 10px;
-        width: 18%;
+        font-size: 12px;
+        width: 25%;
     }
     input#enter{
         display: block;
-        width: 35px;
+        width: 45px;
         text-align: center;
-        font-size: 10px;
-        margin: auto;
+        font-size: 12px;
+        margin: left;
+    }
+    div#container{
+        width: 60%;
+        margin-top: 40px;
     }
     div.o::after{
-        content: url(./images/shield-39.png);
-        font-size: 48px;
+        content: url(./images/shield-71.png);
+        font-size: 90px;
     }
     div.x::after{
-        content: url(./images/swords-39.png);
-        font-size: 48px;
+        content: url(./images/swords-71.png);
+        font-size: 85px;
     }
     div.o{
        margin-left: 7%;
     }
     div.x{
-        margin-left: 5%;
+        margin-left: 4%;
     }
     div#reset{
         width: 60px;
@@ -237,13 +245,13 @@ div#reset:hover{
 }
 @media screen and (max-width: 380px){
     h1{
-       font-size: 30px;
+       font-size: 40px;
     }
     h2#p1{
-        font-size: 20px;
+        font-size: 25px;
     }
     h2#p2{
-        font-size: 20px;
+        font-size: 25px;
     }
     input#enter{
         margin-top: 5px;
@@ -256,36 +264,49 @@ div#reset:hover{
         width: 25%;
     }
     div.o::after{
-        content: url(./images/shield-29.png);
-        font-size: 38px;
+        content: url(./images/shield-59.png);
+        font-size: 77px;
     }
     div.x::after{
-        content: url(./images/swords-29.png);
-        font-size: 38px;
+        content: url(./images/swords-59.png);
+        font-size: 75px;
     }
     div.o{
-        margin-left: 10%;
+        margin-left: 8%;
      }
      div.x{
-         margin-left: 10%;
+         margin-left: 7%;
       }
 }
 @media screen and (max-width: 330px){
     h1{
-        font-size: 28px;
-   }
-   div.o::after{
-        content: url(./images/shield-24.png);
-        font-size: 32px;
+        width: 65%;
+        font-size: 35px;
+    }
+    h2#p1{
+    font-size: 22px;
+    }
+    h2#p2{
+    font-size: 22px;
+    }
+    input#player1{
+        width: 30%;
+    }
+    input#player2{
+        width: 30%;
+    }
+    div.o::after{
+        content: url(./images/shield-50.png);
+        font-size: 63px;
     }
     div.x::after{
-        content: url(./images/swords-24.png);
-        font-size: 32px;
+        content: url(./images/swords-50.png);
+        font-size: 63px;
     }
     div.o{
-        margin-left: 10%;
+        margin-left: 7%;
      }
      div.x{
-         margin-left: 10%;
+         margin-left: 6%;
       }
 }
