@@ -74,8 +74,8 @@ function scoreBoard(){ // Updates and shows the scoreboard
     enter.style = "display: none";
     score1.innerHTML = `${player1} : ${wins1}`; // Shows the score
     score2.innerHTML = `${player2} : ${wins2}`;
-    score1.style = "font-size: 35px; margin-left: 75px"; // Adapts the style
-    score2.style = "font-size: 35px; margin-left: 395px;";
+    score1.style = "font-size: 35px; margin-left: 2px"; // Adapts the style
+    score2.style = "font-size: 35px; margin-left: 280px;";
     if(innerWidth < 1450 && innerWidth > 1030){ // Responsive style
         score1.style = "font-size: 35px; margin-left: 2px"; 
         score2.style = "font-size: 35px; margin-left: 260px;";
