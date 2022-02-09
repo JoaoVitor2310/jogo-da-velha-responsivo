@@ -1,6 +1,4 @@
 # Jogo da velha responsivo com temática medieval.
- Jogo da velha totalmente responsivo para diversas telas, criado como exercício e possui comentários em inglês no código.
+ Jogo da velha totalmente responsivo para diversas telas, criado como exercício e possui comentários em inglês no código. **Acesse pelo link:**
  https://joaovitor2310.github.io/jogo-da-velha-responsivo/
-**Acesse pelo link**
-https://user-images.githubusercontent.com/80935917/153272669-cf8d80e7-d3e8-4831-9388-d9fdac76ca8b.mp4
-
+https://media.giphy.com/media/1IyOk06jmvn6D0CKjz/giphy.gif
